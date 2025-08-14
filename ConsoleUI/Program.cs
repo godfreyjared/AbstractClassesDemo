@@ -56,13 +56,13 @@ namespace ConsoleUI
                 Make = "Kawasaki",
                 Model = "Ninja"
             };
-            Vehicle Vehicle1 = new Car()
+            Vehicle vehicle1 = new Car()
             {
                 Year = "2020",
                 Make = "TESLA",
                 Model = "X"
             };
-            Vehicle Vehicle2 = new Car()
+            Vehicle vehicle2 = new Car()
             {
                 Year = "2010",
                 Make = "SUZUKI",
@@ -76,8 +76,8 @@ namespace ConsoleUI
 
             vehicles.Add(car1);
             vehicles.Add(motorcycle1);
-            vehicles.Add(Vehicle1);
-            vehicles.Add(Vehicle2);
+            vehicles.Add(vehicle1);
+            vehicles.Add(vehicle2);
 
             foreach (var vehicle in vehicles)
             {
